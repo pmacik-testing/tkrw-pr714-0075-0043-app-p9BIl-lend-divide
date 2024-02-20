@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-gcix
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0043-tenant/tkrw-pr714-0075-0043-app/devfile-sample-gcix@sha256:87266f29e6f00193f50ce7348da453c86f97dfc78e5c8f825252b467da35c926
+        name: my-nodejs
+        resources: {}
+status: {}
