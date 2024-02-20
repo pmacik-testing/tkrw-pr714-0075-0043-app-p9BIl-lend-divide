@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-gcix
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0043-tenant/tkrw-pr714-0075-0043-app/devfile-sample-gcix@sha256:87266f29e6f00193f50ce7348da453c86f97dfc78e5c8f825252b467da35c926
         name: my-nodejs
         ports:
         - containerPort: 3001
